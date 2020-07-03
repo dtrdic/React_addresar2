@@ -1,4 +1,9 @@
-﻿@{
+﻿
+<div id="root"></div>
+ 
+@using System.Web.Optimization
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -7,3 +12,6 @@
         <br />
         <p style="font-size:20px;"> You can access the Adresar Test Application <a asp-controller="Adresar" asp-action="Index"> here </a></p>
     </div>
+
+
+@* @Scripts.Render("~/Scripts/src/dist/index.js") *@
