@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Counter from '../../components/counter';
  
-const App = () => <div>Hello world!</div>;
+//const App = () => <div>Hello world!</div>;
  
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Counter />, document.getElementById("root"));
