@@ -4,4 +4,4 @@ import Counter from '../../components/counter';
  
 //const App = () => <div>Hello world!</div>;
  
-ReactDOM.render(<Counter />, document.getElementById("root"));
+ReactDOM.render(<Counter />, document.getElementById("container"));

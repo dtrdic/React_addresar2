@@ -2,9 +2,9 @@
   "name": "React",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Views/Home/Index.cshtml",
   "scripts": {
-    "start": "node index.js",
+    "start": "Views/Home/Index.cshtml",
     "build": "webpack --config=Scripts/src/config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
